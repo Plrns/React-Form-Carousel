@@ -1,0 +1,61 @@
+.container-cadastro {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 100px;
+}
+
+input,
+select {
+  border: 1px solid var(--primary);
+  margin: 20px;
+
+  padding: 10px;
+
+  border-radius: 5px;
+}
+
+button {
+  background-color: var(--button);
+  color: var(--white);
+
+  height: 40px;
+  width: 70px;
+
+  border-radius: 5px;
+}
+
+.titles {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+
+  flex-direction: column;
+
+  margin-top: 30px;
+}
+
+.error {
+  color: #e74c3c;
+  font-weight: bold;
+
+  margin: 5px;
+}
+
+.space-error {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-device-width: 425px) {
+  input,
+  select {
+    margin: 8px;
+  }
+}

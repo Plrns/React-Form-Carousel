@@ -1,0 +1,38 @@
+.carousel {
+  text-align: -webkit-center;
+
+  margin-top: 50px;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev {
+  left: 18%;
+}
+
+.slides .slick-next {
+  right: 18%;
+}
+
+@media only screen and (max-device-width: 425px) {
+  .photo-carousel {
+    width: 370px;
+  }
+
+  .slides .slick-prev {
+    left: 13%;
+  }
+
+  .slides .slick-next {
+    right: 13%;
+  }
+}
